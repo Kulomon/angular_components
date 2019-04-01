@@ -69,3 +69,30 @@ dev_dependencies:
 dependency_overrides:
   angular_components:
     path: ../../angular_components
+  analyzer: ^0.36.0
+  angular: 
+    git:
+      url: https://github.com/dart-lang/angular.git
+      path: angular
+      ref: github-sync
+  angular_compiler: 
+    git:
+      url: https://github.com/dart-lang/angular.git
+      path: angular_compiler
+      ref: github-sync
+  angular_ast: 
+    git:
+      url: https://github.com/dart-lang/angular.git
+      path: angular_ast
+      ref: github-sync
+  angular_forms: 
+    git:
+      url: https://github.com/dart-lang/angular.git
+      path: angular_forms
+      ref: github-sync
+  angular_router: 
+    git:
+      url: https://github.com/dart-lang/angular.git
+      path: angular_router
+      ref: github-sync
+  dart_style: 1.2.5
